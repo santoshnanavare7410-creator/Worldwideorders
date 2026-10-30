@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="WORLDWIDEORDERS — discover curated products across technology, fashion, home, beauty, sports and everyday essentials.">
+<meta name="theme-color" content="#111827">
+<title>WORLDWIDEORDERS | Discover More. Order Smarter.</title>
+<style>
+:root{--navy:#111827;--navy2:#1b2940;--gold:#f5bd4f;--ink:#172033;--muted:#697586;--bg:#f5f7fa;--line:#e5e9f0;--white:#fff;--green:#138263;--shadow:0 12px 35px #1118270d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit;text-decoration:none}button,input,select{font:inherit}button{cursor:pointer}.announcement{background:#0b1220;color:#e6edf7;text-align:center;padding:9px 12px;font-size:12px;letter-spacing:.2px}.header{background:var(--navy);color:white;position:sticky;top:0;z-index:20;box-shadow:0 8px 24px #10182724}.header-inner{max-width:1240px;margin:auto;padding:15px 22px;display:flex;align-items:center;gap:22px}.brand{min-width:205px}.brand-name{font-size:22px;line-height:1;font-weight:950;letter-spacing:.3px}.brand-name span{color:var(--gold)}.brand-tag{font-size:9px;letter-spacing:2px;color:#c3ccda;margin-top:6px}.search{display:flex;flex:1;background:white;border-radius:11px;overflow:hidden;min-width:80px}.search input{width:100%;min-width:0;border:0;outline:0;padding:13px 14px;color:#182033}.search button{border:0;background:var(--gold);padding:0 18px;font-weight:850;color:#1a2433}.nav{display:flex;gap:17px;font-size:12px;font-weight:750;white-space:nowrap}.nav a:hover{color:var(--gold)}.hero{max-width:1240px;padding:22px 22px 0;margin:auto}.hero-panel{min-height:305px;display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:20px;padding:38px 42px;border-radius:24px;color:#fff;overflow:hidden;background:radial-gradient(circle at 80% 25%,#54749a 0,transparent 26%),radial-gradient(circle at 75% 100%,#314866 0,transparent 35%),linear-gradient(115deg,#111827,#1a2c45 65%,#233b58);position:relative}.kicker{font-size:11px;color:var(--gold);font-weight:900;letter-spacing:2.2px;text-transform:uppercase}.hero h1{font-size:clamp(34px,4.5vw,56px);line-height:1.02;letter-spacing:-1.7px;margin:13px 0 14px;max-width:650px}.hero p{color:#d6deea;max-width:550px;font-size:14px;line-height:1.7;margin:0 0 23px}.btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:10px;padding:12px 17px;font-weight:850;font-size:13px;transition:transform .15s,box-shadow .15s}.btn:hover{transform:translateY(-1px)}.btn-gold{background:var(--gold);color:#1c2431;box-shadow:0 8px 20px #f5bd4f22}.hero-visual{min-height:220px;display:grid;place-items:center;position:relative}.globe{width:210px;height:210px;border-radius:50%;display:grid;place-items:center;border:1px solid #ffffff42;background:radial-gradient(circle at 30% 25%,#ffffff30,transparent 45%),linear-gradient(145deg,#ffffff20,#ffffff05);box-shadow:inset 0 0 40px #ffffff0a,0 0 70px #79b7ff1c}.globe span{font-size:86px;filter:drop-shadow(0 15px 20px #0005)}.float{position:absolute;background:#ffffffed;color:#192335;border-radius:12px;padding:10px 13px;font-size:11px;font-weight:850;box-shadow:0 10px 30px #0002}.float.a{top:20px;right:0}.float.b{bottom:15px;left:0}.trust-strip{max-width:1240px;margin:0 auto;padding:16px 22px 0;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.trust{display:flex;align-items:center;gap:11px;background:#fff;border:1px solid var(--line);border-radius:13px;padding:13px 15px}.trust-icon{font-size:21px}.trust strong{display:block;font-size:12px}.trust small{color:var(--muted);font-size:10px}.wrap{max-width:1240px;margin:auto;padding:30px 22px 48px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:15px;margin-bottom:17px}.section-head h2{font-size:23px;letter-spacing:-.6px;margin:0}.section-head p{font-size:12px;color:var(--muted);margin:6px 0 0}.categories{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:11px;margin-bottom:31px}.cat{border:1px solid var(--line);border-radius:15px;background:#fff;padding:15px 8px;text-align:center;color:var(--ink);transition:.18s}.cat:hover,.cat.active{border-color:var(--gold);box-shadow:0 8px 20px #1723380c;transform:translateY(-2px)}.cat.active{background:#fffaf0}.cat .emoji{font-size:25px;display:block;margin-bottom:7px}.cat strong{font-size:11px}.toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px}.count{font-size:12px;color:var(--muted)}.sort{background:white;border:1px solid var(--line);border-radius:10px;padding:10px 12px;color:var(--ink);font-size:12px}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.product{display:flex;flex-direction:column;overflow:hidden;border:1px solid var(--line);border-radius:17px;background:#fff;transition:.2s}.product:hover{transform:translateY(-3px);box-shadow:var(--shadow)}.product-art{height:166px;background:linear-gradient(145deg,#edf2f8,#e2e9f3);display:grid;place-items:center;position:relative}.product-art .big{font-size:62px;filter:drop-shadow(0 10px 9px #0001)}.pill{position:absolute;left:10px;top:10px;background:#fff;border-radius:20px;padding:5px 8px;font-size:9px;font-weight:900;color:#39465b}.product-body{padding:13px;display:flex;flex:1;flex-direction:column}.category-label{font-size:9px;letter-spacing:1.1px;text-transform:uppercase;color:var(--green);font-weight:900}.product h3{font-size:14px;line-height:1.35;margin:7px 0 5px}.desc{font-size:11px;line-height:1.5;color:var(--muted);min-height:33px}.stars{font-size:10px;color:#b87908;margin-top:8px}.price-row{display:flex;align-items:baseline;gap:7px;margin:10px 0 13px}.price{font-size:19px;font-weight:950}.old{font-size:11px;color:#8b95a5;text-decoration:line-through}.actions{display:flex;gap:7px;margin-top:auto}.actions a,.actions button{flex:1;min-width:0;text-align:center;border:1px solid var(--line);border-radius:9px;background:white;padding:9px 6px;font-size:10px;font-weight:850}.actions .buy{background:var(--navy);border-color:var(--navy);color:white}.empty{display:none;padding:35px;background:white;border-radius:15px;text-align:center;color:var(--muted);font-size:13px}.notice{margin-top:29px;padding:17px 19px;border:1px solid #efd89e;background:#fff8e5;border-radius:13px;color:#70551c;font-size:11px;line-height:1.7}.newsletter{margin-top:24px;background:#e9eef5;border-radius:18px;padding:23px;display:flex;justify-content:space-between;align-items:center;gap:18px}.newsletter h3{margin:0 0 5px;font-size:18px}.newsletter p{margin:0;color:var(--muted);font-size:12px}.newsletter .btn{background:var(--gold);color:#1b2432}.footer{background:#0b1220;color:#dbe3ef;padding:31px 22px}.footer-inner{max-width:1240px;margin:auto;display:flex;justify-content:space-between;align-items:start;gap:25px;flex-wrap:wrap}.footer-brand{font-weight:950;font-size:19px}.footer-brand span{color:var(--gold)}.footer p{max-width:640px;color:#aeb9ca;font-size:11px;line-height:1.7}.footer-links{display:flex;gap:15px;flex-wrap:wrap;font-size:11px}.footer-links a:hover{color:var(--gold)}.toast{display:none;position:fixed;z-index:40;bottom:18px;left:50%;transform:translateX(-50%);max-width:90%;padding:12px 16px;background:#111827;color:white;border-radius:10px;font-size:12px;box-shadow:0 10px 30px #0003}
+@media(max-width:1000px){.nav{display:none}.categories{grid-template-columns:repeat(4,1fr)}.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.hero-visual{min-height:180px}.globe{width:170px;height:170px}.globe span{font-size:72px}}
+@media(max-width:650px){.header-inner{padding:12px 13px;gap:10px;flex-wrap:wrap}.brand{min-width:0;flex:1}.brand-name{font-size:19px}.search{order:3;flex-basis:100%}.hero{padding:12px 12px 0}.hero-panel{grid-template-columns:1fr;padding:27px 22px;min-height:0}.hero h1{font-size:38px}.hero p{font-size:13px}.hero-visual{display:none}.trust-strip{padding:12px 12px 0;grid-template-columns:1fr;gap:8px}.trust{padding:11px 13px}.wrap{padding:25px 12px 35px}.categories{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.cat{padding:13px 4px}.cat .emoji{font-size:23px}.cat strong{font-size:10px}.section-head h2{font-size:21px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.product-art{height:130px}.product-art .big{font-size:51px}.product-body{padding:10px}.product h3{font-size:12px}.desc{font-size:10px;min-height:43px}.price{font-size:16px}.actions{flex-direction:column}.actions a,.actions button{font-size:10px}.sort{max-width:145px}.newsletter{display:block;padding:20px}.newsletter .btn{margin-top:13px}.footer-inner{display:block}.footer-links{margin-top:15px}}
+
+.compare-title{font-size:12px;font-weight:800;color:#526071;margin:14px 0 7px}
+.compare-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+.compare-link{display:flex;align-items:center;justify-content:space-between;gap:5px;border:1px solid var(--line);background:#fff;border-radius:9px;padding:9px 10px;font-size:12px;font-weight:750}
+.compare-link span{color:var(--green);font-size:11px;font-weight:800}
+.compare-note{font-size:10px;line-height:1.45;color:var(--muted);margin-top:7px}
+
+
+.retailer-price{font-size:13px;color:#536174;font-weight:800}.retailer-status{font-size:12px;color:#536174}.retailer-open{display:inline-block;padding:7px 9px;border-radius:8px;background:#101827;color:#fff;font-weight:800;font-size:11px;white-space:nowrap}.tracking-status{margin-top:12px;padding:10px 12px;border:1px solid #dce5f0;border-radius:10px;background:#f8fafc;color:#536174;font-size:10px;line-height:1.55}
+
+
+/* Mobile clarity improvements */
+@media(max-width:650px){
+  .announcement{font-size:11px;padding:10px 8px}
+  .header-inner{padding:14px 12px;gap:12px}
+  .brand-name{font-size:20px}
+  .brand-tag{font-size:9px;letter-spacing:1.3px}
+  .search input{font-size:16px;padding:15px 12px}
+  .search button{padding:0 16px;font-size:14px}
+  .hero-panel{padding:25px 18px;border-radius:17px}
+  .hero h1{font-size:34px;line-height:1.08}
+  .hero p{font-size:14px;line-height:1.55}
+  .wrap{padding:24px 12px 32px}
+  .section-head p{font-size:12px;line-height:1.5}
+  .categories{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .cat{min-height:82px;padding:14px 5px}
+  .cat strong{font-size:11px}
+  .toolbar{align-items:center}
+  .count{font-size:12px}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+  .product-art{height:118px}
+  .product-art .big{font-size:48px}
+  .product-body{padding:11px}
+  .product h3{font-size:13px;line-height:1.35}
+  .desc{font-size:11px;line-height:1.45;min-height:48px}
+  .stars{font-size:10px}
+  .retailer-price{font-size:12px}
+  .actions{flex-direction:column}
+  .actions a,.actions button{font-size:11px;padding:10px 7px}
+  .compare-links{grid-template-columns:1fr}
+  .compare-link{font-size:13px;padding:12px}
+  .notice{font-size:11px;line-height:1.6}
+  .footer{padding:25px 15px}
+  .footer p{font-size:11px}
+}
+.search-help{margin:0 0 14px;padding:15px;background:#fff;border:1px solid var(--line);border-radius:13px}
+.search-help strong{display:block;font-size:14px;margin-bottom:5px}
+.search-help p{font-size:12px;color:var(--muted);line-height:1.5;margin:0 0 11px}
+.search-help-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.search-help-links a{display:block;text-align:center;padding:11px 8px;border-radius:9px;background:#111827;color:white;font-size:12px;font-weight:800}
+@media(max-width:650px){.search-help-links{grid-template-columns:1fr 1fr}}
+
+
+.search-wrap{position:relative;display:flex;flex:1;min-width:80px}
+.search-wrap .search{width:100%}
+.suggestions{position:absolute;top:calc(100% + 7px);left:0;right:0;z-index:50;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 14px 35px #10182725;overflow:hidden;color:var(--ink)}
+.suggestion{display:flex;align-items:center;gap:10px;width:100%;padding:12px 14px;border:0;border-bottom:1px solid #edf0f4;background:#fff;text-align:left;color:var(--ink);font-size:13px}
+.suggestion:last-child{border-bottom:0}
+.suggestion:active,.suggestion:hover{background:#fff8e8}
+.suggestion .s-icon{font-size:19px;width:25px;text-align:center}
+.suggestion small{display:block;color:var(--muted);font-size:10px;margin-top:2px}
+.suggestion.store-search{font-weight:800;color:#263a56}
+@media(max-width:650px){.header-inner{align-items:stretch}.search-wrap{order:3;flex-basis:100%}.search-wrap .search{width:100%}.suggestion{padding:13px 12px;font-size:14px}}
+
+
+/* Store-first mobile readability */
+@media(max-width:650px){
+  .announcement{font-size:11px}
+  .header-inner{padding:13px 12px;gap:10px}
+  .brand-name{font-size:19px}
+  .search input{font-size:16px;min-height:48px}
+  .search button{font-size:14px;min-width:66px}
+  .hero h1{font-size:34px}
+  .hero p{font-size:14px;line-height:1.55}
+  .section-head h2{font-size:20px}
+  .section-head p{font-size:13px;line-height:1.5}
+  .product h3{font-size:14px}
+  .product-body{padding:12px}
+  .actions button,.actions a{min-height:42px;font-size:12px}
+  .notice,.store-note{font-size:12px;line-height:1.6}
+}
+
+
+/* Catalogue cards and search results */
+.product-art{background:linear-gradient(145deg,#f3f6fb,#e4ebf5)}
+.product-art .big{font-size:66px}
+@media(max-width:650px){.product-art{height:125px}.product-art .big{font-size:50px}}
+
+</style>
+</head>
+<body>
+<div class="announcement">Curated finds for everyday life · Discover more. Order smarter.</div>
+<header class="header">
+ <div class="header-inner">
+  <a class="brand" href="#" aria-label="WORLDWIDEORDERS home"><div class="brand-name">WORLDWIDE<span>ORDERS</span></div><div class="brand-tag">DISCOVER MORE · ORDER SMARTER</div></a>
+  <form class="search-wrap" id="searchForm"><div class="search"><input id="searchInput" type="search" placeholder="Search any product or brand…" aria-label="Search products" autocomplete="off" aria-autocomplete="list" aria-controls="searchSuggestions"><button type="submit">Search</button></div><div class="suggestions" id="searchSuggestions" role="listbox" hidden></div></form>
+  <nav class="nav"><a href="#categories">Categories</a><a href="#products">Top picks</a><a href="#about">About</a></nav>
+ </div>
+</header>
+<main>
+<section class="hero"><div class="hero-panel">
+ <div><div class="kicker">Your everyday discovery store</div><h1>Good finds.<br>Better discoveries.</h1><p>Search and discover products across tech, fashion, home, beauty, sports and more. Explore product details and compare shopping options in one place.</p><a class="btn btn-gold" href="#products">Explore top picks&nbsp; →</a></div>
+ <div class="hero-visual"><div class="globe"><span>🛍️</span></div><div class="float a">✨ Curated discoveries</div><div class="float b">🌍 A world of choices</div></div>
+</div></section>
+<section class="trust-strip" aria-label="Store information">
+ <div class="trust"><span class="trust-icon">🔎</span><div><strong>Easy discovery</strong><small>Search and browse categories</small></div></div>
+ <div class="trust"><span class="trust-icon">🛒</span><div><strong>Shop at the retailer</strong><small>Purchases complete on the retailer website</small></div></div>
+ <div class="trust"><span class="trust-icon">🔒</span><div><strong>No payment data collected here</strong><small>This site is a product discovery storefront</small></div></div>
+</section>
+<div class="wrap">
+<section id="categories"><div class="section-head"><div><h2>Explore categories</h2><p>Choose a category to find relevant products.</p></div></div>
+<div class="categories" id="categoryButtons">
+<button class="cat active" data-category="All"><span class="emoji">🛍️</span><strong>All products</strong></button>
+<button class="cat" data-category="Electronics"><span class="emoji">🎧</span><strong>Electronics</strong></button>
+<button class="cat" data-category="Fashion"><span class="emoji">👟</span><strong>Fashion</strong></button>
+<button class="cat" data-category="Home"><span class="emoji">🏠</span><strong>Home & kitchen</strong></button>
+<button class="cat" data-category="Beauty"><span class="emoji">✨</span><strong>Beauty</strong></button>
+<button class="cat" data-category="Sports"><span class="emoji">🏃</span><strong>Sports</strong></button>
+<button class="cat" data-category="Lifestyle"><span class="emoji">🎒</span><strong>Lifestyle</strong></button>
+</div></section>
+<section id="products"><div class="section-head"><div><h2>Featured discoveries</h2><p>Search and browse 60+ manually curated product ideas across 6 categories.</p></div></div>
+<div class="toolbar"><div class="count" id="count">Browse all products</div><select class="sort" id="sortSelect" aria-label="Sort products"><option value="featured">Sort: Featured</option><option value="category">Category: A to Z</option><option value="name">Name: A to Z</option></select></div>
+<div id="searchHelp" hidden></div><div class="grid" id="productGrid"></div><div class="empty" id="empty">No matching products found. Try another keyword or category.</div></section>
+<div class="notice store-note">WORLDWIDEORDERS is currently a curated catalogue. Prices and stock are not live-verified; check the retailer before purchasing.</div>
+<section class="newsletter" id="about"><div><h3>Your next great find could be here.</h3><p>Browse the picks and follow through to the retailer for current availability and pricing.</p></div><a class="btn" href="#products">Browse products&nbsp; →</a></section>
+</div>
+</main>
+<footer class="footer"><div class="footer-inner"><div><div class="footer-brand">WORLDWIDE<span>ORDERS</span></div><p>An independent product discovery store. Browse categories, search the curated catalogue, and compare retailer search options. Product availability, prices and final terms are confirmed by each retailer.</p></div><div class="footer-links"><a href="#categories">Categories</a><a href="#products">Featured products</a><a href="#about">About the store</a></div></div></footer>
+<div class="toast" id="toast" role="status"></div>
+<script>
+const products=[
+{id:1,name:"Apple iPhone 16",category:"Electronics",emoji:"📱",label:"Popular tech",desc:"Apple smartphone discovery listing with storage and colour options to verify at retailer.",rating:"★★★★☆",keywords:"iphone apple mobile smartphone"},
+{id:2,name:"Apple iPhone 16e",category:"Electronics",emoji:"📱",label:"Phone pick",desc:"Apple smartphone option; confirm current model details and availability with the seller.",rating:"★★★★☆",keywords:"iphone apple mobile smartphone"},
+{id:3,name:"Samsung Galaxy S Series Phone",category:"Electronics",emoji:"📱",label:"Android pick",desc:"Samsung Galaxy smartphone range. Check exact model, storage and seller details.",rating:"★★★★☆",keywords:"samsung galaxy android phone mobile"},
+{id:4,name:"OnePlus Nord Smartphone",category:"Electronics",emoji:"📱",label:"Popular pick",desc:"OnePlus Nord smartphone range for everyday mobile use.",rating:"★★★★☆",keywords:"oneplus nord android phone mobile"},
+{id:5,name:"Google Pixel Smartphone",category:"Electronics",emoji:"📱",label:"Camera pick",desc:"Google Pixel smartphone range. Verify exact model and specifications at the retailer.",rating:"★★★★☆",keywords:"pixel google android phone mobile"},
+{id:6,name:"iPad Tablet",category:"Electronics",emoji:"📱",label:"Tablet pick",desc:"Apple tablet discovery listing. Check model, size and storage options.",rating:"★★★★☆",keywords:"ipad tablet apple"},
+{id:7,name:"Android Tablet",category:"Electronics",emoji:"📱",label:"Tablet pick",desc:"Android tablet options for study, entertainment and everyday use.",rating:"★★★★☆",keywords:"android tablet"},
+{id:8,name:"Windows Laptop",category:"Electronics",emoji:"💻",label:"Work pick",desc:"Laptop discovery listing. Compare processor, memory and storage before buying.",rating:"★★★★☆",keywords:"laptop notebook computer windows"},
+{id:9,name:"MacBook Laptop",category:"Electronics",emoji:"💻",label:"Premium tech",desc:"Apple laptop range. Check chip, memory and screen configuration at the retailer.",rating:"★★★★☆",keywords:"macbook apple laptop notebook"},
+{id:10,name:"Gaming Laptop",category:"Electronics",emoji:"🎮",label:"Gaming pick",desc:"Gaming laptop category. Compare graphics, cooling and display specifications.",rating:"★★★★☆",keywords:"gaming laptop computer"},
+{id:11,name:"Wireless Earbuds",category:"Electronics",emoji:"🎧",label:"Audio pick",desc:"Compact wireless earbuds for everyday listening and calls.",rating:"★★★★☆",keywords:"earbuds bluetooth airpods earphones"},
+{id:12,name:"Over-Ear Headphones",category:"Electronics",emoji:"🎧",label:"Audio pick",desc:"Over-ear headphones for music, calls and entertainment.",rating:"★★★★☆",keywords:"headphones wireless audio"},
+{id:13,name:"Bluetooth Speaker",category:"Electronics",emoji:"🔊",label:"Audio pick",desc:"Portable Bluetooth speaker category for home and travel.",rating:"★★★★☆",keywords:"speaker bluetooth audio"},
+{id:14,name:"Smart Watch",category:"Electronics",emoji:"⌚",label:"Wearable pick",desc:"Smartwatch category. Check phone compatibility and health features with the seller.",rating:"★★★★☆",keywords:"smartwatch watch fitness band"},
+{id:15,name:"Power Bank",category:"Electronics",emoji:"🔋",label:"Travel essential",desc:"Portable power bank category. Check capacity and device compatibility.",rating:"★★★★☆",keywords:"powerbank charger battery"},
+{id:16,name:"Fast Phone Charger",category:"Electronics",emoji:"🔌",label:"Useful tech",desc:"USB-C and fast charging adapter options. Confirm supported charging standards.",rating:"★★★★☆",keywords:"charger adapter usb c"},
+{id:17,name:"USB-C Cable",category:"Electronics",emoji:"🔌",label:"Accessory",desc:"Charging and data cable category for compatible devices.",rating:"★★★★☆",keywords:"cable usb c charging"},
+{id:18,name:"Mechanical Keyboard",category:"Electronics",emoji:"⌨️",label:"Desk setup",desc:"Mechanical keyboard category for work and gaming setups.",rating:"★★★★☆",keywords:"keyboard mechanical computer"},
+{id:19,name:"Wireless Mouse",category:"Electronics",emoji:"🖱️",label:"Desk setup",desc:"Wireless mouse category for laptop and desktop use.",rating:"★★★★☆",keywords:"mouse wireless computer"},
+{id:20,name:"Computer Monitor",category:"Electronics",emoji:"🖥️",label:"Desk setup",desc:"Monitor category. Compare screen size, resolution and refresh rate.",rating:"★★★★☆",keywords:"monitor display screen"},
+{id:21,name:"DSLR Camera",category:"Electronics",emoji:"📷",label:"Creator pick",desc:"Digital camera category. Check lens compatibility and included accessories.",rating:"★★★★☆",keywords:"camera dslr photography"},
+{id:22,name:"Action Camera",category:"Electronics",emoji:"🎥",label:"Adventure pick",desc:"Compact action camera category for travel and outdoor recording.",rating:"★★★★☆",keywords:"action camera gopro video"},
+{id:23,name:"Everyday Sneakers",category:"Fashion",emoji:"👟",label:"Style pick",desc:"Casual sneakers for everyday outfits. Check size and fit guidance.",rating:"★★★★☆",keywords:"sneakers shoes footwear"},
+{id:24,name:"Running Shoes",category:"Fashion",emoji:"👟",label:"Active style",desc:"Running shoe category. Compare fit and intended activity.",rating:"★★★★☆",keywords:"running shoes sports footwear"},
+{id:25,name:"Casual T-Shirt",category:"Fashion",emoji:"👕",label:"Wardrobe basic",desc:"Everyday T-shirt category in different styles and fabrics.",rating:"★★★★☆",keywords:"tshirt tee clothing"},
+{id:26,name:"Hoodie",category:"Fashion",emoji:"🧥",label:"Casual wear",desc:"Hoodie category for relaxed everyday outfits.",rating:"★★★★☆",keywords:"hoodie sweatshirt clothing"},
+{id:27,name:"Jeans",category:"Fashion",emoji:"👖",label:"Wardrobe basic",desc:"Denim jeans category. Check waist, length and fit information.",rating:"★★★★☆",keywords:"jeans denim pants"},
+{id:28,name:"Backpack",category:"Fashion",emoji:"🎒",label:"Everyday carry",desc:"Backpack category for daily use, commuting and travel.",rating:"★★★★☆",keywords:"backpack bag school travel"},
+{id:29,name:"Handbag",category:"Fashion",emoji:"👜",label:"Accessory",desc:"Handbag category across everyday and occasion styles.",rating:"★★★★☆",keywords:"handbag purse women bag"},
+{id:30,name:"Sunglasses",category:"Fashion",emoji:"🕶️",label:"Accessory",desc:"Sunglasses category. Check lens and UV protection details.",rating:"★★★★☆",keywords:"sunglasses eyewear shades"},
+{id:31,name:"Wrist Watch",category:"Fashion",emoji:"⌚",label:"Accessory",desc:"Wristwatch category across classic and modern styles.",rating:"★★★★☆",keywords:"watch wristwatch accessory"},
+{id:32,name:"Bedsheet Set",category:"Home",emoji:"🛏️",label:"Home pick",desc:"Bedsheet and bedding sets. Check fabric, dimensions and pieces included.",rating:"★★★★☆",keywords:"bedsheet bedding bed cover"},
+{id:33,name:"Pillow Set",category:"Home",emoji:"🛏️",label:"Home comfort",desc:"Pillow category for bedroom comfort. Check fill and size details.",rating:"★★★★☆",keywords:"pillow cushion bedding"},
+{id:34,name:"LED Desk Lamp",category:"Home",emoji:"💡",label:"Desk upgrade",desc:"Desk lighting category for study and work spaces.",rating:"★★★★☆",keywords:"lamp led desk light"},
+{id:35,name:"Office Chair",category:"Home",emoji:"🪑",label:"Workspace",desc:"Office chair category. Compare adjustability and dimensions.",rating:"★★★★☆",keywords:"chair office computer"},
+{id:36,name:"Study Table",category:"Home",emoji:"🪑",label:"Workspace",desc:"Study and work table category. Check dimensions and assembly details.",rating:"★★★★☆",keywords:"study table desk furniture"},
+{id:37,name:"Storage Organizer",category:"Home",emoji:"🧺",label:"Organization",desc:"Storage boxes and organizers for home spaces.",rating:"★★★★☆",keywords:"storage organizer box"},
+{id:38,name:"Kitchen Containers",category:"Home",emoji:"🍱",label:"Kitchen pick",desc:"Kitchen storage container category. Check material and set quantity.",rating:"★★★★☆",keywords:"kitchen containers storage"},
+{id:39,name:"Mixer Grinder",category:"Home",emoji:"🥣",label:"Kitchen appliance",desc:"Mixer grinder category. Compare jar count, capacity and warranty.",rating:"★★★★☆",keywords:"mixer grinder kitchen appliance"},
+{id:40,name:"Air Fryer",category:"Home",emoji:"🍟",label:"Kitchen appliance",desc:"Air fryer category for home cooking. Verify capacity and features.",rating:"★★★★☆",keywords:"air fryer appliance"},
+{id:41,name:"Electric Kettle",category:"Home",emoji:"🫖",label:"Kitchen essential",desc:"Electric kettle category. Check capacity and safety features.",rating:"★★★★☆",keywords:"kettle electric kitchen"},
+{id:42,name:"Vacuum Cleaner",category:"Home",emoji:"🧹",label:"Cleaning pick",desc:"Vacuum cleaner category. Compare type, suction and accessories.",rating:"★★★★☆",keywords:"vacuum cleaner cleaning"},
+{id:43,name:"Water Purifier",category:"Home",emoji:"🚰",label:"Home essential",desc:"Water purifier category. Check local water suitability and filter service.",rating:"★★★★☆",keywords:"water purifier filter"},
+{id:44,name:"Face Moisturizer",category:"Beauty",emoji:"🧴",label:"Skincare",desc:"Moisturizer category. Check ingredients and suitability for your skin.",rating:"★★★★☆",keywords:"moisturizer skincare face cream"},
+{id:45,name:"Sunscreen",category:"Beauty",emoji:"☀️",label:"Skincare",desc:"Sunscreen category. Review SPF, usage directions and product details.",rating:"★★★★☆",keywords:"sunscreen sun cream spf"},
+{id:46,name:"Face Cleanser",category:"Beauty",emoji:"🫧",label:"Skincare",desc:"Face cleanser category across different skin-care routines.",rating:"★★★★☆",keywords:"face wash cleanser skincare"},
+{id:47,name:"Shampoo",category:"Beauty",emoji:"🧴",label:"Haircare",desc:"Shampoo category. Check ingredients and hair type guidance.",rating:"★★★★☆",keywords:"shampoo haircare"},
+{id:48,name:"Hair Dryer",category:"Beauty",emoji:"💨",label:"Haircare tool",desc:"Hair dryer category. Compare heat settings and attachments.",rating:"★★★★☆",keywords:"hair dryer styling"},
+{id:49,name:"Perfume",category:"Beauty",emoji:"🌸",label:"Fragrance",desc:"Fragrance category. Check size, concentration and seller authenticity.",rating:"★★★★☆",keywords:"perfume fragrance deodorant"},
+{id:50,name:"Yoga Mat",category:"Sports",emoji:"🧘",label:"Fitness pick",desc:"Yoga and exercise mat category. Check thickness and dimensions.",rating:"★★★★☆",keywords:"yoga mat exercise fitness"},
+{id:51,name:"Dumbbell Set",category:"Sports",emoji:"🏋️",label:"Fitness pick",desc:"Home workout dumbbell category. Check weight and set contents.",rating:"★★★★☆",keywords:"dumbbell weights gym"},
+{id:52,name:"Cricket Bat",category:"Sports",emoji:"🏏",label:"Sports pick",desc:"Cricket bat category. Check size, material and playing level.",rating:"★★★★☆",keywords:"cricket bat sports"},
+{id:53,name:"Football",category:"Sports",emoji:"⚽",label:"Sports pick",desc:"Football category for training and matches. Check size and surface suitability.",rating:"★★★★☆",keywords:"football soccer ball"},
+{id:54,name:"Badminton Racket",category:"Sports",emoji:"🏸",label:"Sports pick",desc:"Badminton racket category. Check weight, balance and included cover.",rating:"★★★★☆",keywords:"badminton racket"},
+{id:55,name:"Cycling Helmet",category:"Sports",emoji:"🚴",label:"Safety gear",desc:"Cycling helmet category. Check fit, certification and size guidance.",rating:"★★★★☆",keywords:"cycling helmet bicycle"},
+{id:56,name:"Travel Suitcase",category:"Lifestyle",emoji:"🧳",label:"Travel pick",desc:"Suitcase category. Compare dimensions, wheels and cabin rules.",rating:"★★★★☆",keywords:"suitcase luggage trolley"},
+{id:57,name:"Insulated Water Bottle",category:"Lifestyle",emoji:"🥤",label:"Daily essential",desc:"Reusable insulated bottle category. Check capacity and material.",rating:"★★★★☆",keywords:"water bottle flask"},
+{id:58,name:"Travel Organizer",category:"Lifestyle",emoji:"🧳",label:"Travel pick",desc:"Packing cubes and travel organizers for luggage.",rating:"★★★★☆",keywords:"travel organizer packing cubes"},
+{id:59,name:"Lunch Box",category:"Lifestyle",emoji:"🍱",label:"Daily essential",desc:"Lunch box category for school, work and travel.",rating:"★★★★☆",keywords:"lunch box tiffin"},
+{id:60,name:"Desk Planner",category:"Lifestyle",emoji:"📒",label:"Everyday organization",desc:"Planner and notebook category for organizing tasks.",rating:"★★★★☆",keywords:"planner notebook diary"},
+{id:61,name:"Pet Bed",category:"Lifestyle",emoji:"🐾",label:"Pet care",desc:"Pet bed category. Check dimensions and material for your pet.",rating:"★★★★☆",keywords:"pet bed dog cat"},
+{id:62,name:"Baby Stroller",category:"Lifestyle",emoji:"👶",label:"Family essentials",desc:"Baby stroller category. Review age/weight suitability and safety details.",rating:"★★★★☆",keywords:"baby stroller pram"}
+];
+let activeCategory="All",query="",sort="featured";
+const grid=document.getElementById("productGrid"),count=document.getElementById("count"),empty=document.getElementById("empty"),toast=document.getElementById("toast");
+function money(n){return "₹"+n.toLocaleString("en-IN")}
+function compareStores(p){
+ const q=encodeURIComponent(p.name);
+ return [
+  {name:"Amazon India",url:"https://www.amazon.in/s?k="+q},
+  {name:"Flipkart",url:"https://www.flipkart.com/search?q="+q},
+  {name:"Meesho",url:"https://www.meesho.com/search?q="+q},
+  {name:"Croma",url:"https://www.croma.com/searchB?q="+q},
+  {name:"Reliance Digital",url:"https://www.reliancedigital.in/search?q="+q},
+  {name:"AJIO",url:"https://www.ajio.com/search/?text="+q},
+  {name:"Nykaa",url:"https://www.nykaa.com/search/result/?q="+q},
+  {name:"Alibaba",url:"https://www.alibaba.com/trade/search?SearchText="+q},
+  {name:"Myntra",url:"https://www.myntra.com/"+q}
+ ];
+}
+function comparisonTable(p){
+ const stores=compareStores(p);
+ const rows=stores.map(s=>`<tr><td class="store-name">${s.name}</td><td><span class="retailer-status">Check current price on retailer</span></td><td><a class="retailer-open" href="${s.url}" target="_blank" rel="noopener noreferrer" data-track-store="${s.name}" data-track-product="${p.name}">Open ${s.name} ↗</a></td></tr>`).join("");
+ return `<div class="price-compare" id="compare-${p.id}" hidden><div class="compare-table-wrap"><table class="compare-table"><thead><tr><th>Store</th><th>Price & availability</th><th>Visit store</th></tr></thead><tbody>${rows}</tbody></table></div><div class="compare-meta">Prices, delivery charges and stock are shown by each retailer on its own website. WORLDWIDEORDERS does not currently receive live price feeds from these stores.</div></div>`;
+}
+
+const suggestionBox=document.getElementById("searchSuggestions");
+const retailerNames=["Amazon India","Flipkart","Meesho","Google Shopping","Croma","Reliance Digital"];
+function normalise(s){return s.toLowerCase().replace(/[^a-z0-9]+/g," ").trim();}
+function editDistance(a,b){
+ const dp=Array.from({length:a.length+1},(_,i)=>[i]);
+ for(let j=1;j<=b.length;j++)dp[0][j]=j;
+ for(let i=1;i<=a.length;i++)for(let j=1;j<=b.length;j++)
+  dp[i][j]=Math.min(dp[i-1][j]+1,dp[i][j-1]+1,dp[i-1][j-1]+(a[i-1]===b[j-1]?0:1));
+ return dp[a.length][b.length];
+}
+
+function searchScore(p,term){
+ const q=normalise(term);
+ if(!q)return 0;
+ const fields=normalise([p.name,p.category,p.desc,p.keywords||""].join(" "));
+ if(fields.includes(q))return 0;
+ const words=q.split(" ").filter(Boolean);
+ const all=words.every(w=>fields.includes(w)||fields.split(" ").some(x=>x.startsWith(w)));
+ if(all)return 1;
+ const tokens=fields.split(" ");
+ let score=0;
+ for(const w of words){
+   const best=Math.min(...tokens.map(t=>editDistance(w,t)));
+   if(best>(w.length>=6?2:1))return 99;
+   score+=best;
+ }
+ return score+2;
+}
+
+function productMatches(term){
+ const q=normalise(term);
+ if(!q)return [];
+ return products.map(p=>{
+   const score=searchScore(p,q);
+   return {p,score};
+ }).filter(x=>x.score<99).sort((a,b)=>a.score-b.score).slice(0,5).map(x=>x.p);
+}
+function showSuggestions(term){
+ const q=term.trim();
+ if(!q){suggestionBox.hidden=true;suggestionBox.innerHTML="";return;}
+ const matches=productMatches(q);
+ const safe=s=>s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+ let rows=matches.map(p=>`<button type="button" class="suggestion" role="option" data-suggest-product="${p.id}"><span class="s-icon">${p.emoji}</span><span>${safe(p.name)}<small>${safe(p.category)} · curated product</small></span></button>`).join("");
+ rows+=`<button type="button" class="suggestion store-search" role="option" data-suggest-search="${safe(q)}"><span class="s-icon">🔎</span><span>Search “${safe(q)}” across stores<small>Open retailer search links</small></span></button>`;
+ suggestionBox.innerHTML=rows;suggestionBox.hidden=false;
+}
+document.getElementById("searchInput").addEventListener("input",e=>showSuggestions(e.target.value));
+document.getElementById("searchInput").addEventListener("focus",e=>{if(e.target.value.trim())showSuggestions(e.target.value);});
+document.addEventListener("click",e=>{
+ const productButton=e.target.closest("[data-suggest-product]");
+ const searchButton=e.target.closest("[data-suggest-search]");
+ if(productButton){
+   const p=products.find(x=>x.id===Number(productButton.dataset.suggestProduct));
+   if(p){document.getElementById("searchInput").value=p.name;query=p.name;activeCategory="All";render();document.getElementById("products").scrollIntoView({behavior:"smooth"});}
+   suggestionBox.hidden=true;
+ }else if(searchButton){
+   document.getElementById("searchInput").value=searchButton.dataset.suggestSearch;
+   document.getElementById("searchForm").requestSubmit();
+   suggestionBox.hidden=true;
+ }else if(!e.target.closest(".search-wrap")){suggestionBox.hidden=true;}
+});
+
+function render(){
+ let list=products.filter(p=>(activeCategory==="All"||p.category===activeCategory)&&(!query||searchScore(p,query)<99));
+ if(sort==="name")list.sort((a,b)=>a.name.localeCompare(b.name));if(sort==="category")list.sort((a,b)=>a.category.localeCompare(b.category)||a.name.localeCompare(b.name));
+ grid.innerHTML=list.map(p=>`<article class="product"><div class="product-art"><span class="pill">${p.label}</span><span class="big" aria-hidden="true">${p.emoji}</span></div><div class="product-body"><div class="category-label">${p.category}</div><h3>${p.name}</h3><div class="desc">${p.desc}</div><div class="stars">${p.rating} <span style="color:#7b8494">catalogue pick</span></div><div class="price-row"><span class="price retailer-price">Check latest price at store</span></div><div class="actions"><button class="buy" type="button" data-compare="${p.id}">Explore stores ↗</button><button type="button" data-details="${p.id}">Details</button></div>${comparisonTable(p)}<div class="compare-note">Choose a retailer to search for this product. Final price, delivery and stock are confirmed on the retailer website.</div></div></article>`).join("");
+ count.textContent=`Showing ${list.length} products`;
+ empty.style.display=list.length?"none":"block";
+ const help=document.getElementById("searchHelp");
+ if(query && list.length===0){
+   const q=encodeURIComponent(query);
+   const links=[
+    ["Amazon India","https://www.amazon.in/s?k="+q],
+    ["Flipkart","https://www.flipkart.com/search?q="+q],
+    ["Meesho","https://www.meesho.com/search?q="+q],
+    ["Google Shopping","https://www.google.com/search?tbm=shop&q="+q],
+    ["Croma","https://www.croma.com/searchB?q="+q],
+    ["Reliance Digital","https://www.reliancedigital.in/search?q="+q]
+   ];
+   help.hidden=false;
+   help.innerHTML=`<div class="search-help"><strong>No curated match for “${query.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}” yet.</strong><p>This site currently has a small catalogue is manually curated and does not include every product on the internet. Search the same item directly at a retailer:</p><div class="search-help-links">${links.map(([n,u])=>`<a href="${u}" target="_blank" rel="noopener noreferrer">${n} ↗</a>`).join("")}</div></div>`;
+ }else{
+   help.hidden=true;help.innerHTML="";
+ }
+}
+document.getElementById("categoryButtons").addEventListener("click",e=>{const b=e.target.closest("[data-category]");if(!b)return;activeCategory=b.dataset.category;document.querySelectorAll(".cat").forEach(x=>x.classList.toggle("active",x===b));render()});
+document.getElementById("searchForm").addEventListener("submit",e=>{e.preventDefault();query=document.getElementById("searchInput").value.trim();render();document.getElementById("products").scrollIntoView({behavior:"smooth"})});
+document.getElementById("searchInput").addEventListener("input",e=>{
+ query=e.target.value.trim();
+ render();
+});
+
+document.getElementById("sortSelect").addEventListener("change",e=>{sort=e.target.value;render()});
+grid.addEventListener("click",e=>{
+ const c=e.target.closest("[data-compare]");
+ if(c){
+  const panel=document.getElementById("compare-"+c.dataset.compare);
+  const opening=panel.hasAttribute("hidden");
+  if(opening){panel.removeAttribute("hidden");c.setAttribute("aria-expanded","true");c.textContent="Hide store links ↑";}
+  else{panel.setAttribute("hidden","");c.setAttribute("aria-expanded","false");c.textContent="Compare stores ↓";}
+  return;
+ }
+ const d=e.target.closest("[data-details]");
+ if(d){const p=products.find(x=>x.id===Number(d.dataset.details));toast.textContent=p.name+" — "+p.desc+" Product idea. Check the retailer listing for current specifications, price and availability.";toast.style.display="block";clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>toast.style.display="none",3800)}
+});
+
+document.addEventListener("click",e=>{
+ const a=e.target.closest("a[data-track-store]");
+ if(!a)return;
+ const payload={store:a.dataset.trackStore||"unknown",product:a.dataset.trackProduct||a.dataset.product||"unknown",targetUrl:a.href,at:new Date().toISOString()};
+ try{
+   if(navigator.sendBeacon){
+     const blob=new Blob([JSON.stringify(payload)],{type:"application/json"});
+     navigator.sendBeacon("/api/click",blob);
+   }else{
+     fetch("/api/click",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload),keepalive:true}).catch(()=>{});
+   }
+ }catch(_){}
+});
+
+render();
+</script>
+
+<script id="worldwideorders-click-tracking">
+document.addEventListener("click", function (event) {
+  const link = event.target.closest("a[data-track-store]");
+  if (!link) return;
+  const payload = {
+    store: link.dataset.trackStore || "unknown",
+    product: link.dataset.trackProduct || "unknown",
+    targetUrl: link.href,
+    at: new Date().toISOString()
+  };
+  const body = JSON.stringify(payload);
+  let queued = false;
+  try {
+    if (navigator.sendBeacon) {
+      queued = navigator.sendBeacon("/api/click", new Blob([body], {type: "application/json"}));
+    }
+    if (!queued) {
+      fetch("/api/click", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: body,
+        keepalive: true
+      }).catch(function () {});
+    }
+  } catch (_) {}
+});
+</script>
+
+</body></html>
